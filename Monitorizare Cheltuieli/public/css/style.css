@@ -1,0 +1,425 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+.image-banner{
+    background-image: url("../images/first.image.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position:relative;
+    font-family: 'Concert One';
+
+}
+
+.form{
+    border: 0px solid #fff;
+    padding:30px 40px;
+    margin-top:20px;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+.form a{
+    text-decoration: none;
+}
+
+.image-banner .form{
+    position: absolute;
+    top:200px;
+    left:450px;
+}
+
+.image-banner .form .sub-form{
+    margin:20px;
+}
+
+
+.image-banner .form .sub-form input{
+    padding:20px;
+    width:250px;
+    font-size:20px;
+    border-radius: 20px;
+    border-style: hidden;
+    outline:none;
+    font-family: 'Concert One'
+}
+
+.image-banner .form .sub-form label{
+    font-size:30px;
+}
+
+.image-banner .form .button{
+     margin-left:30px;
+     width:400px;
+     height:50px;
+     color: black;
+     text-align: center;
+     text-decoration: none;
+     border: 2px solid #008CBA;
+     -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+     cursor: pointer;
+     margin-top:10px;
+     font-size: 35px;
+     font-family: 'Concert One';
+ }
+
+.image-banner .form .button2{
+    margin-left:30px;
+    width:400px;
+    height:50px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid tomato;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top:10px;
+    font-size: 35px;
+    font-family: 'Concert One';
+}
+
+.image-banner .form .button:hover{
+    background-color: #008CBA;
+    color:white;
+}
+
+.image-banner .form .button2:hover{
+    background-color: tomato;
+    color:white;
+}
+.image-banner .error{
+    color:red;
+    padding-left: 50px;
+}
+/*--------------------Register--------------------*/
+
+.image-banner .form2{
+    position: absolute;
+    top:150px;
+    left:500px;
+
+}
+
+.form2 a{
+    text-decoration: none;
+}
+
+.form2{
+    border: 0px solid #fff;
+    padding:30px 20px;
+    margin-top:20px;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+.image-banner .form2 .sub-form{
+    margin:20px;
+}
+
+.image-banner .form2 .sub-form input{
+    padding:20px;
+    width:250px;
+    font-size:20px;
+    border-radius: 10px;
+    border-style: hidden;
+    outline:none;
+    font-family: 'Concert One'
+}
+
+.image-banner .form2 .sub-form label{
+    font-size:30px;
+}
+
+.image-banner .form2 .button{
+    margin-left:30px;
+    width:400px;
+    height:50px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #008CBA;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top:10px;
+    font-size: 35px;
+    font-family: 'Concert One';
+}
+.image-banner .form2 .button2{
+    margin-left:30px;
+    width:400px;
+    height:50px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid darkgreen;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top:10px;
+    font-size: 35px;
+    font-family: 'Concert One';
+}
+.image-banner .form2 .button:hover{
+    background-color: #008CBA;
+    color:white;
+}
+.image-banner .form2 .button2:hover{
+    background-color: darkgreen;
+    color:white;
+}
+
+/*---------------------HOME PAGE------------------------*/
+/*-----------NAV BAR--------------------*/
+nav{
+
+    font-family: 'Concert One';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    font-size: 30px;
+    height:730px;
+    float:left;
+}
+
+nav li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 50px;
+}
+
+
+nav li a:hover{
+    padding-top:25px;
+    background-color: #555;
+    height:50px;
+    color: white;
+    transition: 0.5s;
+}
+
+nav .btn-logout{
+    margin-top:445px;
+}
+/*--------------Table--------------*/
+
+.table table {
+    position:absolute;
+    font-family: 'Concert One';
+    width: 80%;
+    border-collapse: collapse;
+    top:40px;
+    left:260px;
+}
+
+.table table th,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.table table tr:hover{
+    background-color: #ccc;
+}
+form select {
+    margin-top: 2px;
+    width:200px;
+    font-size: 20px;
+    height: 30px;
+}
+.table .name{
+    position:absolute;
+    top:3px;
+    left:520px;
+    font-size: 25px;
+}
+.table .prenume{
+    position:absolute;
+    top:3px;
+    left:820px;
+    font-size: 25px;
+}
+.table .submit{
+    margin-left:900px;
+    width:250px;
+    height:30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid darkgreen;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: -240px;
+    font-size: 15px;
+    font-family: 'Concert One';
+}
+.table .submit:hover{
+    background-color: darkgreen;
+    color:white;
+}
+/*----pagination made in bootstrap---*/
+.pagination {
+    position:absolute;
+    bottom: 2px;
+    left:150px;
+    float:right;
+}
+.pagination a, .current, .previous_page, .next_page
+{
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+}
+
+.pagination *:first-child {
+    border-left-width: 1px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+.pagination *:last-child {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+/*-----------------Calculator Page-----------------*/
+/*-----Calculator-----*/
+.main{
+    position: relative;
+    margin-left:300px;
+    padding-top: 50px;
+    width:200px;
+
+}
+.main table .button{
+    width: 60px;
+    height: 60px;
+    font-size:25px;
+    margin:-4px;
+    cursor: pointer;
+}
+.main .textview{
+    width:253px;
+    margin-left:5px;
+    font-size: 35px;
+    padding:5px;
+}
+.main select{
+    margin-top: 20px;
+    width:270px;
+    font-size: 20px;
+    height: 30px;
+}
+.main .submit{
+
+    width:280px;
+    height:50px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid darkgreen;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top:20px;
+    font-size: 20px;
+    font-family: 'Concert One';
+}
+.main .submit:hover{
+    background-color: darkgreen;
+    color:white;
+}
+/*---------------PHONE COMPALIBILITY---------------*/
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .image-banner{
+        background-size: cover;
+        width: 600px;
+        height: 800px;
+    }
+    .image-banner .form{
+        position: absolute;
+        top:10px;
+        left:10px;
+    }
+
+    .image-banner .form2{
+        position: absolute;
+        top:10px;
+        left:10px;
+        font-size:10px;
+    }
+    nav{
+        width:420px;
+        height:330px;
+    }
+    nav .btn-logout{
+        margin-top:50px;
+    }
+    nav li a{
+        padding-left:100px;
+    }
+    form select {
+         position:absolute;
+         top:370px;
+         left:35px;
+         width:300px;
+         height: 40px;
+     }
+    .table .name{
+        position:absolute;
+        top:450px;
+        left:35px;
+        width: 30px;
+    }
+    .table .name input{
+        font-size: 23px;
+    }
+    .table .prenume{
+        position:absolute;
+        top:550px;
+        left:35px;
+        width: 30px;
+    }
+    .table .prenume input{
+        font-size: 23px;
+    }
+    .table{
+        width: 500px;
+    }
+
+    .table table {
+        position: absolute;
+        top:700px;
+        left:2px;
+
+    }
+    .main .calculator{
+        position: absolute;
+        left:-262px;
+        top:380px;
+    }
+    .main select{
+        position:absolute;
+        left:-262px;
+        top:800px;
+    }
+    .main .submit{
+        position:absolute;
+        left:-252px;
+        top:870px;
+    }
+
+}
